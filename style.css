@@ -1,0 +1,16 @@
+body::before {
+  content: "";
+  display: block;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .newsletter-heading {
+    flex-basis: 80%;
+  }
+}
+
+.up-arrow {
+  right: 20px;
+  bottom: 20px;
+}
